@@ -7,5 +7,3 @@ Tam Ha
 
 Michael Flores
 
-
-Michael Test type
