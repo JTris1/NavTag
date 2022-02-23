@@ -1,0 +1,11 @@
+h1{
+    text-align: center;
+}
+
+nav{
+    background-color: red;
+    text-align: center;
+    font-size: 25px;
+    color: black;
+    word-spacing: 50px;
+}
