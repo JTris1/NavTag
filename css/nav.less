@@ -1,14 +1,16 @@
 @import "variables.less";
+@import "mixins.less";
+
+@nav-height: 60px;
 
 nav {
     display: flex;
     background-color: @nav-color;
     align-items: center;
     font-size: 25px;
-    color: @bg-color;
+    color: @fg-color-dark;
 
-    height: 100px;
-
+    height: @nav-height;
 
     @media screen and (max-width: 800px){
         .img-container {
@@ -25,17 +27,17 @@ nav {
 
 .img-container {
     width: 75%;
+
+    img {
+        height: @nav-height;
+        display: flex;
+    }
 }
 
 .links-container {
     width: 25%;
     display: flex;
     justify-content: right;
-}
-
-img {
-    height: 100px;
-    display: flex;
 }
 
 ul {
@@ -51,7 +53,7 @@ li {
 }
 
 a {
-    color: @bg-color;
+    color: @fg-color-dark;
     text-decoration: none;
     text-align: right;
 }
