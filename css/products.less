@@ -8,7 +8,7 @@
 
 .products {
     display: flex;
-    width: 85%;
+    width: 100%;
     
     @media screen and (max-width: 1300px) {
         flex-wrap: wrap;
@@ -17,6 +17,10 @@
 }
 
 .card {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    // align-items: center;
     box-shadow: 0 6px 10px 2px rgba(20, 20, 20, 0.6);
     width: 25%;
     margin: 2em;
@@ -28,12 +32,14 @@
 
     p {
         font-family: tablet-gothic, sans-serif;
+        margin: 0 0 10px 0;
     }
 
     button {
         font-family: adobe-garamond-pro, sans-serif;
         border: none;
         outline: 0;
+        margin-top: 15px;
         padding: 12px;
         // color: white;
         // background-color: @sidebar;
@@ -51,6 +57,7 @@
     img {
         width: 300px;
         height: 200px;
+        align-self: center;
     }
 }
 
