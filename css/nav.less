@@ -1,14 +1,12 @@
 @import "variables.less";
 @import "mixins.less";
 
-@nav-height: 60px;
+@nav-height: 6vh;
 
 nav {
     display: flex;
     background-color: @nav-color;
     align-items: center;
-    font-size: 25px;
-    color: @fg-color-dark;
 
     height: @nav-height;
 
@@ -35,6 +33,10 @@ nav {
 }
 
 .links-container {
+    font-family: tablet-gothic, sans-serif;
+    color: @fg-color-dark;
+    font-weight: 500;
+    font-size: 1.6em;
     width: 25%;
     display: flex;
     justify-content: right;
