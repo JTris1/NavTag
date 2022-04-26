@@ -1,11 +1,9 @@
-<!DOCTYPE html>
 <html lang="en">
 <head>
     <meta charset="UTF-8">
     <title>NavTag</title>
-    <link rel="stylesheet" href="https://use.typekit.net/rfy1ovk.css">
+    <link rel="stylesheet" href=https://use.typekit.net/rfy1ovk.css>
     <link rel="stylesheet" href="css/style.css">
-    <script src="https://kit.fontawesome.com/827c17a7f6.js" crossorigin="anonymous"></script>
 </head>
 <body>
     <nav>
@@ -25,19 +23,38 @@
             <i onclick="dropdown()" class="fa-solid fa-bars"></i>
             <div class="dropdown-content" id="myDropdown">
                 <a href="index.html">Home</a>
-                <a href="products.html">Products</a>
-                <a href="#">About</a>
+                <a href="#">Products</a>
+                <a href="about.html">About</a>
             </div>
         </div>
     </nav>
 
-    <div>
-        <h1>Names</h1>
-        <p>Johnathon Trisler</p>
-        <p>Michael Flores</p>
-        <p>Tam Ha</p>
+    <div class="products">
+        <div class="card">
+            <img src="assets/JohnathonT.jpg" alt="Johnathon Trisler">
+            <h1>Johnathon Trisler</h1>
+            <p class="price">jdtrisle@iu.edu</p>
+            <p>Computer Information Technology: Web Development</p>
+            <p>Please follow <a href="JohnathonT.html">this link</a>.</p>
+        </div>
+
+        <div class="card">
+            <img src="assets/TamHa.JPG" alt="Tam Ha">
+            <h1>Tam Ha</h1>
+            <p class="price">tamha@iu.edu</p>
+            <p>Computer Information Technology: Web Development</p>
+            <p>Please follow <a href="TamH.html">this link</a>.</p>
+        </div>
+
+        <div class="card">
+            <img src="assets/MichaelF.jpg" alt="Michael Flores">
+            <h1>Michael Flores</h1>
+            <p class="price">floremi@iu.edu</p>
+            <p>Computer Information Technology: Web Development</p>
+            <p>Please follow <a href="MichaelF.html">this link</a>.</p>
+        </div>
     </div>
 
-    <script src="js/dropdown.js"></script>
+
 </body>
 </html>
