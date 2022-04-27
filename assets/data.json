@@ -1,0 +1,47 @@
+{
+    "type": "module",
+    "Products": [
+        {
+            "name": "Jordan Retro 1",
+            "price": "499.99",
+            "description": "The Air Jordan 1 High debuted in 1985 as the first signature sneaker developed by Nike for Michael Jordan.",
+            "imgSrc": "https://kickstw.com.au/wp-content/uploads/2018/12/Air-Jordan-1-Retro-High-OG-GS-Black-Toe-2016-Release-1.jpg"
+        },
+        {
+            "name": "Yeezy 350v2 Zebra 2.0",
+            "price": "399.99",
+            "description": "A predominantly white Primeknit upper that's combined with black stripe details while red “SPLY-350” branding appears on the lateral side.",
+            "imgSrc": "https://stockx.imgix.net/Adidas-Yeezy-Boost-350-V2-Zebra-Product-1.jpg?fit=fill&bg=FFFFFF&w=700&h=500&auto=format,compress&q=90&dpr=2&trim=color&updated_at=1578503931"
+        },
+        {
+            "name": "Jordan Retro 3",
+            "price": "299.99",
+            "description": "The Jordan Retro 3 revives all of the details that made the original great: the tumbled leather upper that gave it a luxury look, visible Air unit in the heel and low-profile Air unit in the forefoot, and the iconic elephant print on the foxing around the upper.",
+            "imgSrc": "https://tse1.mm.bing.net/th?id=OIP.pboLN0c_oTh6cmviWPQG_gHaFS&pid=Api&P=0&w=222&h=159"
+        },
+        {
+            "name": "Foam RNNR",
+            "price": "175.99",
+            "description": "The Yeezy Foam Runner is a footwear model designed by musical artist and creative Kanye West.",
+            "imgSrc": "https://cdna.lystit.com/1200/630/tr/photos/flightclub/e848d928/yeezy-White-Foam-Runner-ararat.jpeg"
+        },
+        {
+            "name": "Supreme Lace Hooded Sweatshirt",
+            "price": "175.99",
+            "description": "Buy authentic Supreme streetwear, it is amazing to wear.",
+            "imgSrc": "https://images.stockx.com/images/Supreme-Lace-Hooded-Sweatshirt-White.jpg?fit=fill&bg=FFFFFF&w=480&h=320&fm=avif&auto=compress&dpr=1&trim=color&updated_at=1647536122&q=80"
+        },
+        {
+            "name": "Sony PlayStation 5",
+            "price": "630.00",
+            "description": "PS5 is the most powerful PlayStation that Sony's ever made. In addition to a supercharged customised CPU and GPU, the system also plays host to an ultra-high speed SSD hard drive, allowing for lightning fast loading speeds and entirely new experiences.",
+            "imgSrc": "https://images.pushsquare.com/6a63ec35b6115/ps5-buy-poll.original.jpg"
+        },
+        {
+            "name": "LEGO Star Wars Millenium Falcon",
+            "price": "675.00",
+            "description": "Not surprising when you consider the size of the set: a whopping 7,541 pieces. It's since been dwarfed by the 10,000 piece Colosseum, but it remains the biggest LEGO Star Wars set to this day.",
+            "imgSrc": "https://images.stockx.com/images/Lego-Millennium-Falcon-Ultimate-Collector-Series-Set-75192.jpg?fit=fill&bg=FFFFFF&w=480&h=320&fm=avif&auto=compress&dpr=1&trim=color&updated_at=1611070388&q=80"
+        }
+    ]
+}
