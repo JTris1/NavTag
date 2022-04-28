@@ -1,5 +1,5 @@
 async function populate() {
-    const requestURL = "assets/data.json";
+    const requestURL = "/NavTag/assets/data.json";
     const request = new Request(requestURL);
     
     const response = await fetch(request);
