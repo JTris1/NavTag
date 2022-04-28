@@ -1,5 +1,5 @@
 async function populate() {
-    const requestURL = "/NavTag/assets/data.json";
+    const requestURL = "https://raw.githubusercontent.com/JTris1/NavTag/main/assets/data.json";
     const request = new Request(requestURL);
     
     const response = await fetch(request);
